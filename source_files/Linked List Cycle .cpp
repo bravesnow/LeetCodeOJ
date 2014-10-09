@@ -7,7 +7,7 @@ struct ListNode {
     ListNode(int x) : val(x), next(NULL) {}
 };
 void travel(ListNode *pNode)
-{//当前结点遍历链表
+{//
     while (pNode) {
 	cout<<pNode->val<<endl;
 	pNode = pNode->next;
